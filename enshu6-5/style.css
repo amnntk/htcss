@@ -36,23 +36,23 @@ header .infratop {
   margin: 0 20px;
 }
 
-.haikei {
-  width: 100%;
-  height: 700px;
-  display: flex;
-  justify-content: center;
-}
-
 .main {
-  text-align: center;
-  height: 700px;
-  padding: 50px;
-  background-color: white;
-  display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
+  flex-wrap: wrap;
+  width: fit-content;
+  display: block;
 }
 
+.one-flex {
+  display: flex;
+}
+
+.two-flex {
+  display: flex;
+}
+
+.three-flex {
+  display: flex;
+}
 .usuusuusumidori {
   width: 200px;
   height: 200px;
