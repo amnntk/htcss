@@ -63,7 +63,7 @@ header .heading {/*headerタグ内のheaderクラスにのみ反省される*/
 
 footer {
   width: 100%;
-  height:120px;
+  height: 120px;
   text-align: center;
   line-height:120px;
   background-color:#848282;

@@ -1,0 +1,139 @@
+/* 演習６−５　*/
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+header .infratop {
+  font-size: 32px;
+}
+
+.webcamp {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.webcamp-list-item {
+  padding: 15px 0;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.haikei {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  text-align: center;
+  height: 700px;
+  padding: 50px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.usuusuusumidori {
+  width: 200px;
+  height: 200px;
+  background-color: #e6ffe9;
+}
+
+.usuusumidori {
+  width: 200px;
+  height: 200px;
+  background-color: #cdffd3;
+}
+
+.usumidori {
+  width: 200px;
+  height: 200px;
+  background-color: #aeffbd;
+}
+
+.midori {
+  width: 200px;
+  height: 200px;
+  background-color: #93ffab;
+}
+
+.usuusuusuki {
+  width: 200px;
+  height: 200px;
+  background-color: #f3ffd8;
+}
+
+.usuusuki {
+  width: 200px;
+  height: 200px;
+  background-color: #edffbe;
+}
+
+.usuki {
+  width: 200px;
+  height: 200px;
+  background-color: #e9ffa5;
+}
+
+.ki {
+  width: 200px;
+  height: 200px;
+  background-color: #e4ff8d;
+}
+
+.usuusuusuao {
+  width: 200px;
+  height: 200px;
+  background-color: #d9e5ff;
+}
+
+.usuusuao {
+  width: 200px;
+  height: 200px;
+  background-color: #bad3ff;
+}
+
+.usuao {
+  width: 200px;
+  height: 200px;
+  background-color: #a4c6ff;
+}
+
+.ao {
+  width: 200px;
+  height: 200px;
+  background-color: #8eb8ff;
+}
+
+
+footer {
+  width: 100%;
+  height:120px;
+  text-align: center;
+  line-height:120px;
+  background-color:#848282;
+}
+
+.footer-text {
+  color: #fff;
+}
