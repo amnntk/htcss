@@ -36,7 +36,7 @@ header .heading {/*headerタグ内のheaderクラスにのみ反省される*/
 .main-visual {
   width: 100%;/*横いっぱい*/
   height: 300px;/*高さ３００px*/
- background-image: url(italy.jpg);
+ background-image: url(mv.jpg);
  background-size: cover;/*縦横比を維持したまま背景領域を埋め尽くす*/
  background-position: center;/*背景画像を中央に配置*/
 
@@ -77,6 +77,46 @@ main {
   text-align: center;
   line-height:0.6;
 }
+
+.blog-box {
+  padding-top: 50px;
+}
+
+.blog-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blog-image {
+  height: 180px;
+}
+
+.blog-text {
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.blog-text-heading {
+  padding-bottom: 15px;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+
 .sidebar {
   width: 230px;
 }
