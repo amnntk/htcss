@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.sa-bisushoukai {
+  height: 400px;
+  width: 100%;
+  background-image: url(mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+ .title {
+   padding: 20px;
+ }
+
+ main {
+   width: 840px;
+   margin: 50px auto;
+ }
+
+ .wc {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+ }
+
+.wcw {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+ }
+
+.wcc {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+ }
+
+.wcp {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+ }
