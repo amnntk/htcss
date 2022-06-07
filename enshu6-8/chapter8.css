@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+main {
+  width: 960px;
+  margin:50px auto;
+}
+
+.rist {
+  margin-bottom: 50px;
+}
+
+.rist-text {
+  padding: 20px;
+  list-style: none;
+}
+
+.rist-text:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.tairu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square-o {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+  margin-right: 5%;
+  margin-bottom:40px;
+}
+
+.square-y {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-right: 5%;
+  margin-bottom:40px;
+}
+
